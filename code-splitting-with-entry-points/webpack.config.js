@@ -5,6 +5,7 @@ module.exports = {
         app1: './code-splitting-with-entry-points/app1.js',
         app2: './code-splitting-with-entry-points/app2.js'
     },
+    mode: 'production',
     output: {
         filename: '[name].compiled.js',
         path: path.resolve(__dirname, 'dist'),
